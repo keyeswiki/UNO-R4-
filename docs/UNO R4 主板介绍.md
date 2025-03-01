@@ -4,7 +4,7 @@
 
 ## 一、UNO R4 WiFi 主板
 
-![图片不存在](./media/857c29268cb68a026fa384ca2083bc0c.jpg)
+![](./media/857c29268cb68a026fa384ca2083bc0c.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ esp32 - s3 mini -1- n8是带有内置天线的次要MCU，用于Wi-Fi®和蓝牙
 
 3.1. 板卡介绍
 
-![图片不存在](./media/7cff75e9b12404dc2565689ae31fc9a6.png)
+![](./media/7cff75e9b12404dc2565689ae31fc9a6.png)
 
 | 参考 | 描述 |
 | :--: | :--: |
@@ -150,7 +150,7 @@ ESP32-S3-MINI-1-N8的特点有：
 
 3.4. ESP 针脚
 
-![图片不存在](./media/4c36aeac21535f796ab8f3e15d744588.png)
+![](./media/4c36aeac21535f796ab8f3e15d744588.png)
 
 靠近RESET按钮的针座可⽤于直接访问ESP32-S3模块。可访问的引脚有：
 
@@ -161,13 +161,13 @@ ESP32-S3-MINI-1-N8的特点有：
 - ESP_RXD0-串⾏接收（UART）（引脚 5）
 - GND - 接地（引脚 6）
 
-![图片不存在](./media/d0b5002315f7913809455f3113e42f54.png)
+![](./media/d0b5002315f7913809455f3113e42f54.png)
 
 3.5. USB 桥
 
 对UNO R4 WiFi进⾏编程时，RA4M1 MCU默认通过ESP32-S3模块进⾏编程。通过向"P408 "引脚(D40)写⼊⾼电平状态，U2 和 U6 开关可将USB通信直接切换到RA4M1 MCU。
 
-![图片不存在](./media/5e75efe9fd7b206316e4b2882375ff29.png)
+![](./media/5e75efe9fd7b206316e4b2882375ff29.png)
 
 将SJ1焊盘焊接在⼀起可永久性地将USB通信直接设置为RA4M1，绕过ESP32-S3。
 
@@ -193,11 +193,11 @@ UNO R4 WiFi采⽤12x8的红⾊LED矩阵(U_LEDMATRIX)，使⽤⼀种称为查理�
 - P212
 - P213
 
-![图片不存在](./media/5c453e5586abab4abc4d572a49a1d163.png)
+![](./media/5c453e5586abab4abc4d572a49a1d163.png)
 
 这些LED可以通过特定库以数组形式访问。请参阅下⾯的映射：
 
-![图片不存在](./media/105f533b3e76905e506ea94bb0e41d16.png)
+![](./media/105f533b3e76905e506ea94bb0e41d16.png)
 
 该矩阵可⽤于多个项⽬和原型设计，⽀持动画、简单的游戏设计和滚动⽂本等。
 
@@ -212,7 +212,7 @@ DAC可⽤于⾳频应⽤中的信号⽣成，如⽣成和改变锯⻮波。
 
 I2C连接器SM04B-SRSS-TB(LF)(SN)连接到开发板上的⼀个次级I2C总线。<span style="color: rgb(255, 76, 65);">注意：</span> 该连接器通过3.3V供电。
 
-![图片不存在](./media/47de9ee5e22de93e08ae6ea9b74cc460.png)
+![](./media/47de9ee5e22de93e08ae6ea9b74cc460.png)
 
 该连接器还共享以下引脚连接：
 
@@ -238,7 +238,7 @@ VUSB和VIN引脚均连接⾄ISL854102FRZ降压转换器，并分别安装了肖�
 
 - 电源树
 
-![图片不存在](./media/ddd55ba23c9d51859eeb973194ba02a5.png)
+![](./media/ddd55ba23c9d51859eeb973194ba02a5.png)
 
 - 引脚电压
  
@@ -257,9 +257,9 @@ R7FA4M1AB3CFM#AA0微控制器上的GPIO可安全处理⾼达8mA的电流。切�
 
 4. 引脚:
 
-![图片不存在](./media/3a0470a137ddfc5d532c1e9f87a4de2b.jpg)
+![](./media/3a0470a137ddfc5d532c1e9f87a4de2b.jpg)
 
-![图片不存在](./media/daf9d80ea5b3abfb28ff7960c2e0dbfc.png)
+![](./media/daf9d80ea5b3abfb28ff7960c2e0dbfc.png)
 
 4.1. 模拟
 
@@ -328,7 +328,7 @@ R7FA4M1AB3CFM#AA0微控制器上的GPIO可安全处理⾼达8mA的电流。切�
 
 ## 二、UNO R4 Minima 主板
 
-![图片不存在](./media/24db0e89cb7419f7b774469c397c830b.jpg)
+![](./media/24db0e89cb7419f7b774469c397c830b.jpg)
 
 ---
 
@@ -394,7 +394,7 @@ UNO R4 Minima 板的⼯作电压是 5 V，使其与具有相同⼯作电压的 U
 
 3.1. 板卡介绍
 
-![图片不存在](./media/e9f0bcda92993e027695647eaec0dbf7.png)
+![](./media/e9f0bcda92993e027695647eaec0dbf7.png)
 
 | 参考 | 描述 |
 | :--: | :--: |
@@ -452,7 +452,7 @@ VUSB、桶形插座连接器和 VIN 引脚与 ISL854102FRZ 降压转换器连接
 
 - 电源树
 
-![图片不存在](./media/7bf2dae59aa60713f6fcb1ee1548f838.png)
+![](./media/7bf2dae59aa60713f6fcb1ee1548f838.png)
 
 - 引脚电压
  
@@ -466,9 +466,9 @@ R7FA4M1AB3CFM#AA0 微控制器上的 GPIO 可以处理⾼达8 mA的电流。请�
 
 4. 引脚:
 
-![图片不存在](./media/d61c7323d70923a4bbae79ab3421924b.jpg)
+![](./media/d61c7323d70923a4bbae79ab3421924b.jpg)
 
-![图片不存在](./media/9d7bffa9ac8e78d9c5aac04e4943ed3d.png)
+![](./media/9d7bffa9ac8e78d9c5aac04e4943ed3d.png)
 
 4.1. 模拟
 
